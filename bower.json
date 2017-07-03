@@ -1,0 +1,17 @@
+{
+  "name": "angular2-to-do",
+  "description": "",
+  "main": "",
+  "authors": [
+    "eluts <eluts15@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
