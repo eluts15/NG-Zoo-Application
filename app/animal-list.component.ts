@@ -10,6 +10,7 @@ import { AnimalInfo } from './animal_info.model';
       Species: {{currentAnimal.species}} <br>
       Name: {{currentAnimal.name}} <br>
       Age: {{currentAnimal.age}} <br>
+      Diet: {{currentAnimal.diet}} <br>
       Location: {{currentAnimal.location}} <br>
       Current Caretakers: {{currentAnimal.caretakers}} <br>
       Sex: {{currentAnimal.sex}} <br>
