@@ -31,7 +31,19 @@ With these dependencies you should have what you need to get up and running!
 ## Specification
 
 | Specification        | Input          | Output  |
-| ------------- |:-------------:| -----:|
+| ------------- |:-------------:| -----:|         
+| Application displays particular animal's information. | | Species: Northwest Black Taild Bear |
+| Allow the user to add an animal to the list. | Species: Ocelote, Name: Prince, Age: 4, .... | Species: Ocelote, Name: Prince, Age: 4, .... |
+| Allow the user to update an animal's info. | Age: 4 | Age: 5 |
+| Allow the user to show entries based on age | Young Animals | Species: Arctic Fox
+Name: Moon
+Age: 2
+Diet: Carnivore
+Current Zoo Location: Northern Trail
+Current Number of Caretakers: 5
+Sex: Female
+Likes: Cool shade
+Dislikes: Loud noises |
 
 ## Usage
 
@@ -61,11 +73,13 @@ The next patch will include a section that lists their names, as well as how man
 ## TODO
 
 1. Inside the form to add an animal, center the labels and inputs using css or a scss.
-2.
+2. SASS
+3. Add filter by Diet
 
 ## Current Bugs
 
 1. When adding a new animal, selecting the diet (Carnivore, Herbivore, Omnivore) returns the number 1, 2, or 3 depending on which one is clicked.
+2. After clicking Edit, form appears, however fields aren't empty as intended.  These should be placeholders.
 
 ## License
 

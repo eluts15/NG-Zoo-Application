@@ -10,8 +10,8 @@ import { AnimalInfo } from './animal_info.model';
       <option value="adult" selected="selected">Adult Animals</option>
     </select>
 
-    <ol>
-      <li *ngFor="let currentAnimal of childAnimalList | filterBy:filterByAge">
+    <ol class="list-group">
+      <li class="list-group-item" *ngFor="let currentAnimal of childAnimalList | filterBy:filterByAge">
         <strong>Species:</strong> {{currentAnimal.species}}<br>
         <strong>Name:</strong> {{currentAnimal.name}}<br>
         <strong>Age:</strong> {{currentAnimal.age}}<br>
