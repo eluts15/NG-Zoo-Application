@@ -8,9 +8,11 @@ import { AnimalInfo } from './animal_info.model';
     <h3>{{header}}</h3>
     <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimalInfo($event)"></animal-list>
     <hr>
-    <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
-    <hr>
-    <edit-animal-info [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishEdit()"></edit-animal-info>
+    <div>
+      <edit-animal-info [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishEdit()"></edit-animal-info>
+    <div>
+      <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
+    </div>
   `
 })
 

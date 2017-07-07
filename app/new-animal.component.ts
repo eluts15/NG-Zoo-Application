@@ -19,7 +19,7 @@ import { AnimalInfo } from './animal_info.model';
       <input #newAge><br><br>
 
 
-      <label>Enter Native Climate/Region </label><br>
+      <label>Enter Zoo Location: </label><br>
       <input #newLocation><br><br>
 
 
@@ -45,9 +45,7 @@ import { AnimalInfo } from './animal_info.model';
       </select>
 
       <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value);
-
       newSpecies.value=''; newName.value=''; newAge.value=''; newDiet.value=''; newLocation.value=''; newCaretakers.value=''; newSex.value=''; newLikes.value=''; newDislikes.value='';">Add</button>
-
     </div>
   `
 })
