@@ -7,11 +7,13 @@ import { AnimalInfo } from './animal_info.model';
   <div class="container">
     <h3>{{header}}</h3>
     <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+    <hr>
+    <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
   `
 })
 
 export class AppComponent {
-  header: string = 'Hello World!';
+  header: string = 'Animal Information';
   selectedAnimal = null;
 
   masterAnimalList: AnimalInfo[] = [
