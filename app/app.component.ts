@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
-import { AnimalInfo } from './animal_info.model.model';
+import { AnimalInfo } from './animal_info.model';
 
 @Component ({
   selector: 'app-root',
   template: `
   <div class="container">
     <h3>{{header}}</h3>
-    <animal-list></animal-list>
-    <edit-animal></edit-animal>
-    <add-animal></add-animal>
+    <animal-list [childAnimalList]="masterAnimalList"></animal-list>
   `
 })
 
