@@ -16,6 +16,7 @@ import { AnimalInfo } from './animal_info.model';
       Sex: {{currentAnimal.sex}} <br>
       Likes: {{currentAnimal.likes}} <br>
       Dislikes: {{currentAnimal.dislikes}} <br><br>
+      <button (click)="editButtonHasBeenClicked(currentAnimal)">Edit</button>
       <hr>
     </ol>
   `
@@ -23,4 +24,10 @@ import { AnimalInfo } from './animal_info.model';
 
 export class AnimalListComponent {
   @Input() childAnimalList: AnimalInfo[];
+  @Output() clickSender = new EventEmitter();
+
+  editButtonHasBeenClicked(animalToEdit: AnimalInfo) {
+    this.clickSender.emit(animalToEdit);
+  }
+  
 }
