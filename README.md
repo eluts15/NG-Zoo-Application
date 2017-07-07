@@ -37,6 +37,15 @@ With these dependencies you should have what you need to get up and running!
 
 This is a demonstration of the power of Angular2!
 
+## Upcoming Features
+
+1. Instead of listing the number of caretakers for a specific animal. It makes more sense to list out the names of the caretakers.
+The next patch will include a section that lists their names, as well as how many caretakers there are for a specific animal in captivity.
+
+2. Update the GUI by adding bootstrap components, make it look nice.
+
+3. I'll add more to this list as they come.
+
 ## Contributing
 
 1. Fork it!
