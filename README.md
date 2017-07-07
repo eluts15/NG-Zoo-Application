@@ -44,7 +44,7 @@ The next patch will include a section that lists their names, as well as how man
 
 2. Update the GUI by adding bootstrap components, make it look nice.
 
-3. I'll add more to this list as they come.
+3. I'll add more to this list as they come..
 
 ## Contributing
 
