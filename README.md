@@ -44,7 +44,11 @@ The next patch will include a section that lists their names, as well as how man
 
 2. Update the GUI by adding bootstrap components, make it look nice.
 
-3. I'll add more to this list as they come..
+3. I would like a monthly calender widget somewhere on this page.
+
+4. Add images for each animal.
+
+5. I'll add more to this list as they come..
 
 ## Contributing
 
@@ -53,6 +57,11 @@ The next patch will include a section that lists their names, as well as how man
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+## TODO
+
+1. Inside the form to add an animal, center the labels and inputs using css or a scss.
+2.
 
 ## Current Bugs
 

@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.info {
+  padding-left: 400px;
+  padding-bottom: 30px;
+}
+
+.btn-primary {
+  text-align: right;
+  margin-bottom: 40px;
+}

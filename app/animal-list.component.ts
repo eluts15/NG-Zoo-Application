@@ -11,18 +11,17 @@ import { AnimalInfo } from './animal_info.model';
     </select>
 
     <ol>
-      <li *ngFor="let currentAnimal of childAnimalList |filterBy:filterByAge">
-        Species: {{currentAnimal.species}} <br>
-        Name: {{currentAnimal.name}} <br>
-        Age: {{currentAnimal.age}} <br>
-        Diet: {{currentAnimal.diet}} <br>
-        Current Zoo Location: {{currentAnimal.location}} <br>
-        Current Number of Caretakers: {{currentAnimal.caretakers}} <br>
-        Sex: {{currentAnimal.sex}} <br>
-        Likes: {{currentAnimal.likes}} <br>
-        Dislikes: {{currentAnimal.dislikes}} <br><br>
-        <button (click)="editButtonHasBeenClicked(currentAnimal)">Edit</button></li>
-      <hr>
+      <li *ngFor="let currentAnimal of childAnimalList | filterBy:filterByAge">
+        <strong>Species:</strong> {{currentAnimal.species}}<br>
+        <strong>Name:</strong> {{currentAnimal.name}}<br>
+        <strong>Age:</strong> {{currentAnimal.age}}<br>
+        <strong>Diet:</strong> {{currentAnimal.diet}}<br>
+        <strong>Current Zoo Location:</strong> {{currentAnimal.location}}<br>
+        Current Number of Caretakers: {{currentAnimal.caretakers}}<br>
+        Sex: {{currentAnimal.sex}}<br>
+        Likes: {{currentAnimal.likes}}<br>
+        Dislikes: {{currentAnimal.dislikes}}<br><br>
+        <button class="btn-primary" (click)="editButtonHasBeenClicked(currentAnimal)">Edit</button></li>
     </ol>
   `
 })
