@@ -4,9 +4,19 @@ import { AnimalInfo } from './animal_info.model';
 @Component({
   selector: 'animal-list',
   template: `
-    <ul>
-      <li *ngFor="let currentAnimal of childAnimalList"> {{currentAnimal.species}} {{currentAnimal.name}} {{currentAnimal.age}} {{currentAnimal.location}} {{currentAnimal.caretakers}} {{currentAnimal.sex}} {{currentAnimal.likes}} {{currentAnimal.dislikes}}
-    </ul>
+    <ol>
+      <li *ngFor="let currentAnimal of childAnimalList">
+
+      Species: {{currentAnimal.species}} <br>
+      Name: {{currentAnimal.name}} <br>
+      Age: {{currentAnimal.age}} <br>
+      Location: {{currentAnimal.location}} <br>
+      Current Caretakers: {{currentAnimal.caretakers}} <br>
+      Sex: {{currentAnimal.sex}} <br>
+      Likes: {{currentAnimal.likes}} <br>
+      Dislikes: {{currentAnimal.dislikes}} <br><br>
+      <hr>
+    </ol>
   `
 })
 
