@@ -17,7 +17,7 @@ import { AnimalInfo } from './animal_info.model';
 
       <label class="addAnimalInfo">Enter Age of this Animal: </label><br>
       <input #newAge><br><br>
-      
+
 
       <label class="addAnimalInfo">Enter Zoo Location: </label><br>
       <input #newLocation><br><br>
@@ -39,9 +39,9 @@ import { AnimalInfo } from './animal_info.model';
     <div>
       <label class="addAnimal">Animal Diet:</label>
       <select #newDiet>
-        <option [value]="1"> Carnivore</option>
-        <option [value]="2"> Herbivore</option>
-        <option [value]="3"> Omnivore</option>
+        <option [value]="'Carnivore'"> Carnivore</option>
+        <option [value]="'Herbivore'"> Herbivore</option>
+        <option [value]="'Omnivore'"> Omnivore</option>
       </select>
 
       <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value);
