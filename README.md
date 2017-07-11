@@ -35,15 +35,7 @@ With these dependencies you should have what you need to get up and running!
 | Application displays particular animal's information. | | Species: Northwest Black Taild Bear |
 | Allow the user to add an animal to the list. | Species: Ocelote, Name: Prince, Age: 4, .... | Species: Ocelote, Name: Prince, Age: 4, .... |
 | Allow the user to update an animal's info. | Age: 4 | Age: 5 |
-| Allow the user to show entries based on age | Young Animals | Species: Arctic Fox
-Name: Moon
-Age: 2
-Diet: Carnivore
-Current Zoo Location: Northern Trail
-Current Number of Caretakers: 5
-Sex: Female
-Likes: Cool shade
-Dislikes: Loud noises |
+| Allow the user to show entries based on age | Young Animals | Species: Arctic Fox | Name: Moon Age: 2, Diet: Carnivore Current Zoo, Location: Northern Trail, Current Number of Caretakers: 5, Sex: Female, Likes: Cool shade, Dislikes: Loud noises |
 
 ## Usage
 
@@ -60,7 +52,13 @@ The next patch will include a section that lists their names, as well as how man
 
 4. Add images for each animal.
 
-5. I'll add more to this list as they come..
+5. Make it user friendly!
+
+6. Make it nice to look at.
+
+7. 
+
+8. I'll add more to this list as they come..
 
 ## Contributing
 
